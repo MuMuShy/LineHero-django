@@ -1,0 +1,13 @@
+.idea/
+*.pyc
+.DS_Store
+.env
+.env.local
+.env.production
+.devcontainer
+.vscode
+.credentials/*
+*.sqlite3
+**/node_modules/*
+.sqlite_file/
+debug.log
