@@ -30,7 +30,7 @@ ROOT_DATA_DIR_PATH = pathlib.Path(
 DEFAULT_HOST_URL = os.environ['DEFAULT_HOST_URL']
 assert DEFAULT_HOST_URL
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-odlcw3qtewrqkfj^)$2fo9nmuz9#2_#yvqr=gu3y2&^qo(^uw-'
+SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
